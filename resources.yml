@@ -1,0 +1,8 @@
+yaml_location: yaml
+api_settings: Smsapi\Client\ApiSettings
+src:
+  path: src/Resource
+  namespace: Smsapi\Client\Resource
+tests:
+  path: tests/Resource
+  namespace: Smsapi\Tests\Client\Resource

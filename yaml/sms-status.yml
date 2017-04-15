@@ -1,0 +1,7 @@
+class: Sms\Status
+properties:
+  id: string
+  points: float
+  number: string
+  status: string
+  idx: string|null

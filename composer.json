@@ -1,0 +1,50 @@
+{
+    "name": "mdrost/smsapi-client",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Mateusz Drost",
+            "email": "mat.drost@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "api-clients/foundation": "dev-master",
+        "api-clients/middleware": "^2.0",
+        "api-clients/middleware-basic-authorization": "^2.0",
+        "api-clients/middleware-http-exceptions": "^1.0",
+        "api-clients/middleware-bearer-authorization": "^1.0",
+        "api-clients/middleware-user-agent": "^1.0",
+        "api-clients/rx": "^2.0",
+        "api-clients/rx-operators": "^2.0",
+        "api-clients/transport": "dev-master"
+    },
+    "require-dev": {
+        "api-clients/resource-generator": "dev-master",
+        "api-clients/resource-test-utilities": "dev-master",
+        "api-clients/test-utilities": "^3.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smsapi\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Smsapi\\Test\\Client\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "api-clients": {
+            "command-bus": {
+                "path": "src/CommandBus",
+                "namespace": "Smsapi\\Client\\CommandBus"
+            }
+        }
+    }
+}

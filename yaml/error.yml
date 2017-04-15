@@ -1,0 +1,7 @@
+class: Error
+properties:
+  error:
+    type: int
+    annotations:
+      rename: code
+  message: string
