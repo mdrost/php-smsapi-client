@@ -1,7 +1,7 @@
 # Smsapi API Client for PHP 7
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mdrost/smsapi-client.svg)](https://packagist.org/packages/mdrost/smsapi-client)
-[![Build Status](https://img.shields.io/travis/mdrost/php-smsapi-client/master.svg)](https://travis-ci.org/mdrost/php-smsapi-client)
+[![Build Status](https://travis-ci.org/mdrost/php-smsapi-client.svg?branch=master)](https://travis-ci.org/mdrost/php-smsapi-client)
 [![Total Downloads](https://img.shields.io/packagist/dt/mdrost/smsapi-client.svg)](https://packagist.org/packages/mdrost/smsapi-client)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/mdrost/php-smsapi-client/badge.svg)](https://travis-ci.org/mdrost/php-smsapi-client)

@@ -10,7 +10,7 @@ require __DIR__ . '/../../provide_goodies.php';
 $loop = LoopFactory::create();
 $client = AsyncClient::create($auth, $loop)->sms();
 
-$message = new TextMessage('test')
+$message = new TextMessage('test');
 
 $client->sendSms($phoneNumber, $message, [
     'test' => 1,
