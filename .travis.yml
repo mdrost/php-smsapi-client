@@ -38,7 +38,10 @@ install:
   - composer show
 
 ## Run the actual test
-script: make ci
+script:
+  - phpunit --coverage-text --coverage-clover=coverage.clover
 
 ## Gather coverage and set it to coverage servers
-after_script: make ci-coverage
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
